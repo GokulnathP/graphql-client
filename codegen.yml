@@ -1,0 +1,13 @@
+overwrite: true
+schema: http://localhost:9000/graphql
+documents: "src/**/*.graphql"
+generates:
+  src/graphql/i-graphql-codegen/generated/graphql.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-query
+    config:
+      fetcher:
+        func: '../fetcher#useFetchData'
+        isReactHook: true

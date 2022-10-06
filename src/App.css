@@ -1,0 +1,12 @@
+.App {
+  background: #363636;
+  min-height: 100vh;
+}
+
+.Heading {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}

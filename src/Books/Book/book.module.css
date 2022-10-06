@@ -1,0 +1,32 @@
+.Book {
+    width: 300px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.Cover {
+    width: 300px;
+    height: 450px;
+}
+
+.Cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.Content {
+    padding: 20px 10px;
+}
+
+.Content .Title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+.Content .Author {
+    color: blue;
+    font-size: 14px;
+    margin: 0;
+}
